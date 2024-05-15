@@ -16,7 +16,7 @@
 #### Runtime
   - Best case O(n): terjadi karena selalu membandingkan setiap elemen dengan elemen lainnya, terlepas dari urutan array.
   - Worst case O(n^2): terjadi karena harus mencari elemen terkecil dari bagian yang belum terurut di setiap iterasi.
-### 2. Selection Sort
+### 2. Merge Sort
 #### Alur
   Algoritma Merge sort sebenarnya sederhana, bagi larik menjadi dua sama besar, urutkan bagian pertama, urutkan bagian kedua,lalu gabungkan. Merge sort bekerja dengan langkah memilah elemen menjadi dua bagian dan mengulangi pemilihan sehingga satu elemen terdiri maksimal dua nilai (divide). Kemudian, masing-masing elemen diurutkan (conquer). Terakhir, kombinasikan dua bagian tersebut secara rekursif untuk mendapatkan rangkaian data berurutan. Proses rekursi berhenti jika mencapai elemen dasar. Hal ini terjadi bilamana bagian yang akan diurutkan menyisakan tepat satu elemen. Sisa pengurutan satu elemen tersebut menandakan bahwa bagian tersebut telah terurut sesuai rangkaian.
 #### Runtime
