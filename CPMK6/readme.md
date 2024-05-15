@@ -134,13 +134,15 @@ int main() {
 Program ini mengimplementasikan konsep stack untuk menyimpan data mahasiswa yang terdiri dari nama, NIM, dan nilai. Program membuat struct bernama Mahasiswa  yang berisi informasi nama, nim, dan nilai. Program menddklarasikan maksimal kapasitas stack adalah 7. Kemudian untuk menyimpan elemen stack, digunakan array yang diberi nama arrayMahasiswa. Fungsi pertama adalah fungsi isFull, untuk mengecek apakah stack sudah penuh. Stack dianggap penuh jika top sama dengan maksimal. Fungsi berikuntya adalah ismpty, untuk mengecek apakah stack kosong. Stack dianggap kosong jika top sama dengan 0. Fungsi ketiga yang digunakan adalah pushArrayMahasiswa, untuk menambahkan elemen baru ke stack. Jika stack penuh, fungsi akan mencetak pesan bahwa data telah penuh. Jika tidak, elemen baru ditambahkan ke array di posisi top, dan top akan bertambah satu. Fungsi berikutnya adalah popArrayMahasiswa, untuk menghapus elemen teratas dari stack. Jika stack kosong, fungsi akan mencetak pesan "Tidak ada data yang dihapus". Jika tidak, top akan berkurang satu dan menghapus data teratas. Fungsi berikutnya adalah countSatck, untuk mengembalikan jumlah elemen dalam stack, yaitu nilai dari top. Selanjutnya fungsi destroyArrayMahasiswa, untuk menghapus semua elemen dalam stack dengan mengatur ulang nilai-nilai dalam array dan mengatur top menjadi 0. Kemudian, fugsi cetakArrayMahasiswa, untuk  mencetak semua elemen dalam stack. Jika stack kosong, fungsi akan mencetak pesan "Tidak ada data yang dicetak". Jika tidak, fungsi akan mencetak setiap elemen dari atas ke bawah.
 Fungsi utama program sendiri menambahkan beberapa data mahasiswa ke stack menggunakan pushArrayMahasiswa, mencetak stack, mengecek status penuh atau kosong dari stack, melihat data di posisi tertentu dengan peekArrayMahasiswa, menghapus elemen teratas dengan popArrayMahasiswa, mengganti data di posisi tertentu dengan changeArrayMahasiswa, dan akhirnya menghapus semua data dalam stack menggunakan destroyArrayMahasiswa. Program mencetak informasi setelah setiap operasi untuk menunjukkan status stack.
 
-### ss
+#### Output
 
+![Screenshot 2024-05-15 074921](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/08cc2eac-7839-43bb-a275-525505e9fb85)
 
+#### Full Screenshot
+
+![Screenshot 2024-05-15 074941](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/c6b803dc-ec1b-4231-8c8c-17df260e7b5e)
 
 ## 2.	Tulislah sebuah program untuk mensortir sebuah stack, sehingga item dengan nilai terkecil menjadi top pada stack tersebut! Diperbolehkan menggunakan tambahan temporary stack, namun tidak diperbolehkan untuk menyalin dari struktur data yang lain seperti array.  Program stack yang dibuat dapat menggunakan operasi stack seperti push, pop, peek, dan isEmpty. 
-
-
 
 ```C++
 #include <iostream>
@@ -212,3 +214,11 @@ Pada baris awal program, dibuat fungsi untuk memasukkan elemen x ke dalam stack 
 Fungsi berikutnya adalah sortStack, yang berfungsi mengurutkan seluruh elemen dalam stack s. Jika stack s tidak kosong, ambil elemen teratas dan panggil sortStack secara rekursif untuk mengurutkan sisa elemen dalam stack. Setelah stack diurutkan, masukkan kembali elemen yang diambil tadi ke dalam stack menggunakan sortedInsert.
 Fungsi berikutnya adalah printStack untuk mencetak elemen-elemen dalam stack dari yang teratas hingga terbawah. Menggunakan stack sementara temp untuk mencetak elemen-elemen dari stack asli tanpa mengubahnya.
 Fungsi utama program adalah inisialisasi stack s dan tambahkan beberapa elemen float ke dalamnya.  Cetak stack s sebelum diurutkan untuk menampilkan keadaan awal stack. Panggil fungsi sortStack(s) untuk mengurutkan stack s. Cetak stack s setelah diurutkan untuk menampilkan hasil akhir dari pengurutan.
+
+#### Output
+
+![Screenshot 2024-05-15 074952](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/b289c285-2317-4f40-b2b2-6865c7bc35a9)
+
+#### Full Screenshot
+
+![Screenshot 2024-05-15 075029](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/cec8d566-1b07-4020-ab76-6551b0413c3c)
