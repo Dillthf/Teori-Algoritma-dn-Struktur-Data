@@ -72,8 +72,20 @@ int main() {
 Program ini menyimpan informasi mengenai band favorit dalam bentuk struct. Pada baris awal, struct band didefinisikan untuk menyimpan informasi tentang beberapa band favorit. dalam struct band terdapat array berupa namaBand, albumFavorit, laguFavorit, dan jumlahPersonil untuk menyimpan data. Setiap array akan berisi 6 elemen. Program menggunakan array karena dengan array, memungkinkan penyimpanan data dalam bentuk yang terstruktur dan terorganisir, memudahkan pengelolaan data.
  Di dalam fungsi utama, dideklarasikan variabel favorit. Kemudian, baris berikutnya adalah pengisian data secara terurut satu persatu sesuai nama array dan indeksnya. Program menggunakan perulangan for untuk menampilkan informasi keenam band tersebut.
 
+#### Output
+
+![Screenshot 2024-05-14 230626](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/2b402893-154e-408d-be52-a342155d9800)
+
+![Screenshot 2024-05-14 230803](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/ff7d6fb6-e904-4ff9-a8fc-887c81e99a7a)
+
+![Screenshot 2024-05-14 231818](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/0ad8bc89-4d38-4195-81fd-2d9d44c650cb)
+
+![Screenshot 2024-05-14 231854](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/8cedd04e-7b48-4a62-b068-c7db275af063)
+
+![Screenshot 2024-05-14 231908](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/e6ef43e4-7c01-4c77-833a-72fb7a1eabbc)
+
 #### Full Screenshot
 
-![Screenshot 2024-03-25 104745](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/00b15a05-3857-4ff4-b661-487969c97c42)
+![Screenshot 2024-05-15 052211](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/834d2d10-5b24-4a53-b2d2-f3e78b8fe21d)
 
 
