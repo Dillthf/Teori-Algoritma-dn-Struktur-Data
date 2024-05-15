@@ -121,9 +121,14 @@ printQueue() bertujuan mencetak isi antrian saat ini.
 Fungsi utama program adalah menciptakan objek antrian dari class Queue. Memasukkan beberapa nomor antrian (enqueue) ke dalam antrian. Mencetak isi antrian menggunakan printQueue().
 Mencetak nomor antrian terdepan menggunakan getFront(). Menghapus elemen terdepan (dequeue) dan mencetak isi antrian lagi. Mencetak jumlah elemen saat ini menggunakan getCount().
 Mencoba memasukkan beberapa nomor antrian lagi, salah satunya akan menunjukkan pesan antrian penuh karena melebihi maxQueueSize. Mencetak isi antrian setelah mencoba enambahkan elemen melebihi batas.
-### ss
 
+#### Output 
 
+![Screenshot 2024-05-15 080839](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/88a8482b-896d-40a4-a4f5-0f9bccc9307a)
+
+#### Full Screenshot
+
+![Screenshot 2024-05-15 092902](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/ddeb315b-0912-4f11-b6d6-33fc742f77e5)
 
 ## 2. Sebuah selter hewan terlantar, yang mana hanya menerima kucing dan anjing, menerapkan konsep “first in, first out” dalam proses adopsi. Orang-orang yang hendak mengadopsi harus mengikuti aturan berikut: 1) mengadopsi hewan yang paling “tua” (berdasarkan waktu masuk ke selter) dan tidak dapat memilih kucing atau anjing; 2) memilih antara kucing atau anjing, namun akan menerima yang paling tua. Buatlah data struktur untuk mengimplementasikan kondisi tersebut, silahkan menggunakan beberapa operasi queue seperti enquee, dequeueAny, dequeueDog, dan dequeueCat.
 
@@ -266,3 +271,11 @@ int main() {
 
 Program ini bertujuan untuk mensimulasikan proses adopsi hewan dari sebuah shelter hewan terlantar yang hanya menerima kucing dan anjing.
 Program dimulai dengan mendefinisikan struktur data Hewan yang memiliki dua atribut: jenis (string) dan waktuMasuk (integer). Atribut jenis digunakan untuk menunjukkan jenis hewan (kucing atau anjing), sedangkan waktuMasuk digunakan untuk menyimpan waktu kapan hewan tersebut masuk ke dalam shelter. Program selanjutnya mendefinisikan kelas AdopsiHewan yang berisi operasi-operasi yang terkait dengan adopsi hewan, seperti enqueue, dequeueAny, dequeueCat, dan dequeueDog. Fungsi enqueue digunakan untuk menambahkan hewan baru ke dalam antrian (queue) sesuai dengan jenisnya. Jika jenis hewan yang dimasukkan adalah kucing, maka hewan tersebut dimasukkan ke dalam antrian kucing. Begitu juga dengan anjing. Fungsi dequeueAny digunakan untuk mengeluarkan hewan tertua dari antara antrian kucing dan anjing. Pertama, fungsi ini memeriksa apakah antrian kucing atau anjing kosong. Jika salah satu antrian kosong, maka fungsi akan mengeluarkan hewan dari antrian yang tidak kosong. Jika kedua-duanya tidak kosong, maka fungsi akan membandingkan waktu masuk hewan terdepan pada kedua antrian dan mengeluarkan yang paling tua. Fungsi dequeueCat digunakan untuk mengeluarkan kucing tertua dari antrian kucing. Fungsi dequeueDog digunakan untuk mengeluarkan anjing tertua dari antrian anjing. Di dalam fungsi utama, pengguna diberikan menu untuk memilih jenis adopsi yang ingin dilakukan. Pengguna dapat memilih untuk mengadopsi hewan tertua (kucing atau anjing), kucing tertua, atau anjing tertua. Setelah pengguna memilih, program akan menampilkan hewan yang diadopsi beserta waktu masuknya.
+
+#### Output
+
+![Screenshot 2024-05-15 092817](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/d4befec8-23f8-453c-bdcb-36b0e00c461f)
+
+##### Full Screenshot
+
+![Screenshot 2024-05-15 092829](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/1a1f048a-d96c-4941-9be2-5a8cef520a00)
