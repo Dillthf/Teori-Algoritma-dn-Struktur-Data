@@ -72,11 +72,11 @@ Kompleksitas waktu kode di atas dapat diklasifikasikan menjadi O(n^2), dimana n 
 
 #### Output:
 
-![Screenshot 2024-04-01 120905](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/19e81056-6da2-4d4e-9a1e-a9473ee398db)
+![SS Cpmk 2 (2)](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/899708c0-44c4-4e75-817d-77ffd2643155)
 
 #### Full Screenshot
 
-![Screenshot 2024-04-01 120916](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/2ed0a1a7-b169-4630-a775-1f88282f5359)
+![SSS Cpmk 2 (2)](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/67a60ba8-a48e-4ba1-8b6a-774a21fded6d)
 
 ## 3.	Tulislah sebuah fungsi untuk mensorting dan mengecek dua buah array of strings, sehingga menghasilkan “anagram” dan “tidak anagram” 
 
@@ -129,13 +129,11 @@ int main() {
 
 Program tersebut dibuat untuk mengecek apakah kedua kata yang diinput pengguna merupakan anagram. Dua kata yang diinput, teridentifikasi sebagai string. Kemudian, program memeriksan dengan cara yang pertama yaitu kesamaan kedua string. Jika sama, kedua string akan diurutkan dan dibandingkan. Setelah diurutkan dan dibandingkan, kedua string tetap sama, maka program akan menampilkan bahwa kedua kata tersebut adalah anagram. 
 
-![Screenshot 2024-03-25 104628](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/1da6da1f-e9da-4230-ab4d-39379d3e1bc4)
-![Screenshot 2024-03-25 104712](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/f1a81068-d7df-4440-b4ed-c81a4f8afe5b)
-![Screenshot 2024-03-25 104720](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/7960d35e-647e-4544-b068-98c106939801)
+![SS Cpmk 2 (4)](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/6c49aafc-b55a-47b7-90be-469c379e2214)
 
 #### Full Screenshot
 
-![Screenshot 2024-03-25 104745](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/00b15a05-3857-4ff4-b661-487969c97c42)
+![SSS Cpmk 2 (4)](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/ce1d673b-0939-400b-876e-2d72efa0afd4)
 
 
 ## 4.	Tulislah sebuah fungsi program dengan asumsi sebagai berikut: Terdapat dua buah sorted array A dan B yang memiliki tipe data sama, dimana array A memiliki indeks yang cukup untuk menampung array B. Gabungkan array B kedalam array A, kemudian urutkan array tersebut! 
@@ -201,9 +199,9 @@ int main() {
  Kode diatas dimaksudkan untuk membuat suatu program yang akan menggabungkan dua array berbeda. Array utama (A), mempunyai ruang lebih yang akan digunakan untuk menampung elemen yang ada pada array B. Pada contoh penggunaan program, array A mempunyai kapasitas sebesar 16 elemen, namun diisi sebanyak 7 elemen saja. Kapasitas di array A yang tersisa 9, akan diisi oleh elemen B sebanyak 6 eleme. Program dibuat untuk menampung array bertipe data string, sehingga array yang telah digabungkan akan diurutkan sesuai abjad.
 #### Output:
 
-![Screenshot 2024-03-25 111102](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/e3799a98-fcd4-4169-ac6c-2d4eb8ba0414)
+![SS Cpmk 2 (3)](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/c9a24f7d-260a-4e32-982c-1a4d0804e4a2)
 
 #### Full Screenshot
-![Screenshot 2024-03-25 111125](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/1eb7f2b2-b92d-46b9-a5ca-c0e17f2c5f14)
+![SSS Cpmk 2 (3)](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/9acb3e9e-a3c4-44b4-ab68-ec1141e647dc)
 
 
