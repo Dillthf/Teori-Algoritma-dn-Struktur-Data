@@ -93,6 +93,13 @@ Fungsi selanjutnya adalah fungsi hapusDuplikat. Fungsi ini menghilangkan node de
 Untuk menampilkan isi linked list sebelum dan sesudah duplikat dihapus, program menggunakan fungsi cetakList. Fungsi utamanya adalah membuat linked list dan tambahkan beberapa node (beberapa dengan nilai duplikat). Mencetak linked list sebelum penghapusan duplikat. Memanggil fungsi hapusDuplikat untuk menghapus node duplikat.
 Mencetak kembali linked list setelah penghapusan duplikat.
 
+#### Output
+
+![Screenshot 2024-05-15 084438](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/a403ec03-b85a-4e69-85b8-bb983e8aa5d5)
+
+#### Full Screenshot
+
+![Screenshot 2024-05-15 084457](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/b281407e-e7b6-494a-99d8-10b79c9392dc)
 
 ## 2. Buatlah sebuah algoritma dan fungsi program untuk menghapus node di tengah single linked list! 
 
@@ -187,13 +194,14 @@ Hapus node slow.
 Program akan menampilkan linked list sebelum dan setelah menghapus node tengah, menunjukkan bagaimana linked list berubah setelah operasi penghapusan. Untuk pengecekan awal, jika linked list kosong (head adalah nullptr), fungsi langsung keluar. Jika linked list hanya memiliki satu node, node tersebut dihapus dan head diset ke nullptr. Untuk menemukan node tengah, digunakan dua pointer, slow dan fast. fast bergerak dua kali lebih cepat dari slow, sehingga ketika fast mencapai akhir, slow berada di node tengah. Dan untuk menghapus, prev adalah node sebelum slow. Setelah menemukan node tengah (slow), node sebelum slow (prev) diatur ulang agar menunjuk ke node setelah slow. Node slow dihapus menggunakan delete.
 
 
-#### Output:
+#### Output
 
-![Screenshot 2024-04-01 120905](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/19e81056-6da2-4d4e-9a1e-a9473ee398db)
+![Screenshot 2024-05-15 084541](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/9856b320-b227-4b0c-bb94-40ee841621ca)
 
 #### Full Screenshot
 
-![Screenshot 2024-04-01 120916](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/2ed0a1a7-b169-4630-a775-1f88282f5359)
+![Screenshot 2024-05-15 084536](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/37c1b5e2-f139-4a49-9a1d-b971c91f755a)
+
 
 ## 3.	Buatlah sebuah program untuk mengecek apakah linked list adalah sebuah palindrom! 
 
@@ -307,11 +315,11 @@ int main() {
 Program bekerja dengan alur pertama yatu menemukan titik tengah linked list. Digunakan dua pointer (slow dan fast). slow bergerak satu langkah setiap iterasi, sedangkan fast bergerak dua langkah setiap iterasi. Ketika fast mencapai akhir, slow berada di titik tengah. Kemudian, membalikkan setengah linked list dari titik tengah. Mulai dari slow, balikkan linked list dari titik tengah ke akhir. Setelah itu, elemen-elemen dari awal linked list hingga titik tengah dengan elemen-elemen dari akhir hingga tengah yang telah dibalik dibandingan. Terakhir, balikkan kembali separuh kedua ke bentuk aslinya untuk mengembalikan linked list ke keadaan semula (opsional). Jika kedua setengah sama, linked list adalah palindrom; jika tidak, bukan palindrom.
 Alur ini diimplementasikan ke beberapa fungsi, yaitu fungsi append, fungsi reverse, fungsi isPalindrome, fungsi printlist, dan fungsi main. Fungsi append untuk menambahkan node baru di akhir linked list. Fungsi reverse untuk embalik linked list dan mengembalikan pointer ke head dari linked list yang dibalik. Fungsi isPalindrome untuk menemukan titik tengah linked list menggunakan dua pointer. Membalik separuh kedua dari linked list mulai dari titik tengah. Membandingkan dua setengah linked list. Mengembalikan linked list ke bentuk aslinya setelah pemeriksaan (opsional). Mengembalikan true jika linked list adalah palindrom, false jika tidak.
 Fungsi printList untuk mencetak linked list. Dan fungsi main untuk menguji fungsi dengan linked list contoh dan mencetak hasilnya.
-![Screenshot 2024-03-25 104628](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/1da6da1f-e9da-4230-ab4d-39379d3e1bc4)
-![Screenshot 2024-03-25 104712](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/f1a81068-d7df-4440-b4ed-c81a4f8afe5b)
-![Screenshot 2024-03-25 104720](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/7960d35e-647e-4544-b068-98c106939801)
+
+#### Output
+
+![Screenshot 2024-05-15 084555](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/663a778a-6a05-4c1b-a11a-f2edaacb74ed)
 
 #### Full Screenshot
 
-![Screenshot 2024-03-25 104745](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/00b15a05-3857-4ff4-b661-487969c97c42)
-
+![Screenshot 2024-05-15 084610](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/904b6bd3-5a51-442a-821b-f01c2025b492)
