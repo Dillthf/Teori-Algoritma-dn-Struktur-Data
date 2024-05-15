@@ -66,11 +66,11 @@ Program tersebut menggunakan salah satu algoritma searching untuk mencari rasa e
 
 #### Output:
 
-![Screenshot 2024-04-01 120905](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/19e81056-6da2-4d4e-9a1e-a9473ee398db)
+![SS Cpmk 3 (2)](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/8471ab1f-7b3f-4491-aae9-49b8f7969a7a)
 
 #### Full Screenshot
 
-![Screenshot 2024-04-01 120916](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/2ed0a1a7-b169-4630-a775-1f88282f5359)
+![SSS Cpmk 3 (2)](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/bbcc0697-246c-4fb0-aff2-90074d743577)
 
 ## 3.Tulislah sebuah fungsi program dengan kondisi sebagai berikut: Terdapat sebuah sorted array of strings yang mana terdapat string kosong diantaranya, carilah lokasi/indeks dari kata yang dicari! 
 
@@ -143,12 +143,10 @@ int main() {
 Program tersebut dibuat untuk mencari kata. Program menggunakan algoritma binary searching di dalam fungsi searchString. Fungsi ini mencari indeks dari kata yang dicari (target) dalam array terurut yang terdapat string kosong. Jika elemen tengah adalah string kosong, fungsi mencari elemen non-kosong terdekat di kedua arah (kiri dan kanan). Setelah menemukan elemen non-kosong, fungsi membandingkan kata yang dicari dengan elemen ini dan menyesuaikan batas pencarian (low dan high) sesuai dengan hasil perbandingan. Fungsi memanggil dirinya sendiri secara rekursif hingga menemukan kata yang dicari atau hingga pencarian tidak dapat dilakukan lagi (low melebihi high).
 Pada fungsi main, array diinisialisasi terurut. kemudia meminta pengguna memasukkan kata yang ingin dicari. Kemudian memanggil fungsi searchString untuk mencari kata dalam array dan menampilkan hasil pencarian. Karena menggunaan array, maka indeks akan dimulai dari 0.
 
-![Screenshot 2024-03-25 104628](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/1da6da1f-e9da-4230-ab4d-39379d3e1bc4)
-![Screenshot 2024-03-25 104712](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/f1a81068-d7df-4440-b4ed-c81a4f8afe5b)
-![Screenshot 2024-03-25 104720](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/7960d35e-647e-4544-b068-98c106939801)
+![SS Cpmk 3 (3) png](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/9c53dab8-0917-4b8a-bae8-f1b92f877806)
 
 #### Full Screenshot
 
-![Screenshot 2024-03-25 104745](https://github.com/Dillthf/Algoritma-Pemrograman-dan-Struktur-Data-1/assets/161497877/00b15a05-3857-4ff4-b661-487969c97c42)
+![SSS Cpmk 3 (2) png](https://github.com/Dillthf/Teori-Algoritma-dn-Struktur-Data/assets/161497877/1d60e462-fb95-45c7-bf4c-93342c9c87bd)
 
 
